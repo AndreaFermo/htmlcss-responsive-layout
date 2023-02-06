@@ -81,6 +81,25 @@
     margin: 1rem;
 }
 
+#benefits {
+    background-color: #9792e4;
+    padding: 2rem;
+
+}
+
+#benefits .title {
+    text-align: center;
+}
+
+#benefits .cards {
+    margin: 1rem;
+}
+
+#benefits .card {
+    background-color: white;
+    margin: 1rem 0rem;
+}
+
 
 /*RESPONSIVE*/
 
@@ -124,6 +143,17 @@
     #testimonials .tstmnlImg {
         width: 30%;
     }
+
+    #benefits .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.5rem;
+    }
+
+    #benefits .card {
+        margin: 0.5rem;
+        width: calc(50% - 1rem);
+    }
     
     
 }
@@ -155,4 +185,8 @@
         width: 40%;
     }
     
+    #benefits .card {
+        
+        width: calc(100% / 3 - 1rem);
+    }
 }
