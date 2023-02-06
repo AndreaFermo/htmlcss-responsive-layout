@@ -83,7 +83,7 @@
 
 #benefits {
     background-color: #9792e4;
-    padding: 2rem;
+    padding: 2rem 0rem;
 
 }
 
@@ -98,6 +98,11 @@
 #benefits .card {
     background-color: white;
     margin: 1rem 0rem;
+}
+
+#about {
+    margin: 0rem 1rem;
+    padding: 2rem 0rem;
 }
 
 
@@ -128,8 +133,6 @@
 
     }
 
-
-
     #functions .cards {
         display: flex;
         flex-wrap: wrap;
@@ -154,7 +157,23 @@
         margin: 0.5rem;
         width: calc(50% - 1rem);
     }
+
+    #about {
+        margin: 1rem;
+    }
+
+    #about .aboutUs {
+        display: flex;
+        justify-content: center;
+    }
     
+    #about .aboutUs .colLeft {
+        width: 50%;
+    }
+
+    #about .aboutUs .colRight {
+        width: 30%;
+    }
     
 }
 
