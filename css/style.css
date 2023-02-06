@@ -31,9 +31,12 @@
     z-index: 9999;
 }
 
+#siteHeader .container {
+    height: 100%;
+}
+
 .container {
     max-width: 1170px;
-    height: 100%;
     margin: auto;
 }
 
@@ -65,13 +68,18 @@
     padding: 2rem 0;
 }
 
-
-
 #plans .col2 {
     background-color: white;
 }
 
+#testimonials {
+    text-align: center;
+}
 
+#testimonials .card {
+    background-color: #9792e4;
+    margin: 1rem;
+}
 
 
 /*RESPONSIVE*/
@@ -109,7 +117,14 @@
 
     }
 
-
+    #testimonials .card {
+        display: flex;
+    }
+    
+    #testimonials .tstmnlImg {
+        width: 30%;
+    }
+    
     
 }
 
