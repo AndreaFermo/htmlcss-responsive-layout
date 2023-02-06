@@ -6,12 +6,13 @@
 
 /*DEBUG*/
 
-.debug .logo {
-    background-color: #b5ddff;
-}
 
 .debug .navBar div {
     background-color: #b5ddff;
+}
+
+.debug #functions .container .cards .card {
+    height: 300px;
 }
 
 /*CSS*/
@@ -40,9 +41,17 @@
     color: white;
 }
 
-.navBar div {
+#functions {
+    padding: 6rem 0;
+}
+
+
+#functions .card {
+    background-color: #b5ddff;
+    margin: 1rem;
 
 }
+
 
 
 
@@ -51,9 +60,36 @@
 @media screen and (min-width: 768px) {
    
     .container {
-    max-width: 738px;
+        max-width: 738px;
     
     }
+
+    #functions .cards {
+        margin: 0.5rem;
+   
+
+    }
+
+
+    #functions .card {
+        width: calc(100% / 3 - 1rem);
+        margin: 0.5rem;
+
+    }
+
+    #functions .card:first-child {
+        width: calc(100% / 3 * 2 - 1rem);
+
+    }
+
+
+
+    #functions .cards {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
 
     
 }
@@ -63,6 +99,16 @@
     .container {
     max-width: 962px;
     
+    }
+
+     #functions .card:first-child {
+        display: flex;
+
+    }
+
+    #functions .intro , .fnctImg {
+        width: 50%;
+
     }
     
 }
