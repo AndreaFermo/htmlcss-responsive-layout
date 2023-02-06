@@ -111,6 +111,13 @@
     background-color: #9792e4;
 }
 
+footer {
+    color: white;
+    background-color: #313131;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
 
 /*RESPONSIVE*/
 
