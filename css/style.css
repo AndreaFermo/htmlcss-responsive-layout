@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*DEBUG*/
+
+.debug .logo {
+    background-color: #b5ddff;
+}
+
+.debug .navBar div {
+    background-color: #b5ddff;
+}
+
+/*CSS*/
+
+#siteHeader {
+    height: 80px;
+    width: 100%;
+    background-color: #0084fd;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.container {
+    max-width: 1170px;
+    height: 100%;
+    margin: auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 1rem;
+    color: white;
+}
+
+.navBar div {
+
+}
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 768px) {
+   
+    .container {
+    max-width: 738px;
+    
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) {
+   
+    .container {
+    max-width: 962px;
+    
+    }
+    
+}
