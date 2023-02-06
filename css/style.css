@@ -15,6 +15,10 @@
     height: 300px;
 }
 
+.debug #plans .column {
+    height: 300px;
+    margin-bottom: 2rem;
+}
 /*CSS*/
 
 #siteHeader {
@@ -42,7 +46,7 @@
 }
 
 #functions {
-    padding: 6rem 0;
+    padding: 6rem 0 2rem;
 }
 
 
@@ -50,6 +54,21 @@
     background-color: #b5ddff;
     margin: 1rem;
 
+}
+
+#plans {
+    background-color:  #9792e4;
+}
+
+#plans .columns {
+    margin: 0 1rem;
+    padding: 2rem 0;
+}
+
+
+
+#plans .col2 {
+    background-color: white;
 }
 
 
@@ -109,6 +128,16 @@
     #functions .intro , .fnctImg {
         width: 50%;
 
+    }
+
+    #plans .columns {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #plans .column {
+        width: 40%;
     }
     
 }
