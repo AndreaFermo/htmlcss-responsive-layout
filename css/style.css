@@ -7,10 +7,6 @@
 /*DEBUG*/
 
 
-.debug .navBar div {
-    background-color: #b5ddff;
-}
-
 .debug #functions .container .cards .card {
     height: 300px;
 }
@@ -20,6 +16,8 @@
     margin-bottom: 2rem;
 }
 /*CSS*/
+
+/*HEADER*/
 
 #siteHeader {
     height: 80px;
@@ -44,9 +42,42 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
+    align-items: center;
     margin: 0 1rem;
     color: white;
 }
+
+.navBar .hamburger {
+    font-size: 2rem;
+}
+
+.navBar nav {
+    display: none;
+}
+
+.navBar nav ul {
+    list-style: none;
+}
+
+.navBar nav li {
+   display: inline-block;
+   margin-left: 1rem;
+}
+
+.navBar nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBar nav li:last-child a {
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+ 
+
+/*PLANNING*/
 
 #functions {
     padding: 6rem 0 2rem;
@@ -197,7 +228,15 @@ footer {
     
     }
 
-     #functions .card:first-child {
+    .navBar nav {
+        display: block;
+    }
+
+    .navBar .hamburger {
+        display: none;
+    }
+
+    #functions .card:first-child {
         display: flex;
 
     }
