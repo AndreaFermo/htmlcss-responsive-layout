@@ -212,12 +212,55 @@ html {
 
 #testimonials {
     text-align: center;
+    padding: 3rem 0rem;
+    line-height: 2rem;
+}
+
+#testimonials .tstmnlHeader {
+    margin: 1rem;
+}
+
+#testimonials h2 {
+    color: #9792e4;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+#testimonials p {
+    padding: 1rem 0;
 }
 
 #testimonials .card {
     background-color: #9792e4;
     margin: 1rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 3rem;
 }
+
+#testimonials .image-cropper {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#testimonials .image-cropper img {
+    height: 100%;
+    margin-left: -50px;
+  
+}
+
+#testimonials .card .name{
+    font-weight: bold;
+}
+
+
+/*BENEFITS*/
 
 #benefits {
     background-color: #9792e4;
@@ -296,10 +339,16 @@ footer {
 
     #testimonials .card {
         display: flex;
+        text-align: left;
+    
     }
     
-    #testimonials .tstmnlImg {
-        width: 30%;
+    #testimonials .image-cropper {
+        width: 80%;
+    }
+
+    #testimonials .cardRight {
+        padding-left: 1rem;
     }
 
     #benefits .cards {
@@ -374,6 +423,10 @@ footer {
 
     #plans .col2 {
         align-self: flex-end;
+    }
+
+    #testimonials .image-cropper {
+        width: 40%;
     }
     
     #benefits .card {  
