@@ -268,8 +268,14 @@ html {
 
 }
 
-#benefits .title {
+#benefits h2 {
     text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0 2rem;
+    line-height: 3rem;
+
+
 }
 
 #benefits .cards {
@@ -279,7 +285,41 @@ html {
 #benefits .card {
     background-color: white;
     margin: 1rem 0rem;
+    padding: 1rem 2rem 3rem;
+    border-radius: 2rem;
 }
+
+
+#benefits .number {
+    font-size: 3rem;
+    color: #9792e4;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+#benefits .benefit {
+    font-size: 1.5rem;
+    color: #9792e4;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+#benefits p {
+    line-height: 1.5rem;
+    color: #556879;
+    padding-bottom: 2rem;
+}
+
+#benefits a {
+    color: white;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #9792e4;
+    letter-spacing: 0.08rem;
+    border-radius: 2rem;
+}
+
 
 #about {
     margin: 0rem 1rem;
