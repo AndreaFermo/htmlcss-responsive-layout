@@ -320,11 +320,72 @@ html {
     border-radius: 2rem;
 }
 
+/*ABOUTUS*/
 
 #about {
     margin: 0rem 1rem;
     padding: 2rem 0rem;
 }
+
+#about h2 {
+    color: #9792e4;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+#about p {
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+#about .colRight .image-cropper {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+#about .image-cropper img {
+    height: 100%;
+   
+}
+
+#about .colRight p {
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 2rem 0rem;
+}
+
+#about .colRight {
+    position: relative;
+}
+
+#about .colRight .quote {
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    
+}
+
+#about a {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: #9792e4;
+    letter-spacing: 0.08rem;
+    border-radius: 2rem;
+}
+
+/*GET STARTED*/
 
 #getStarted {
     text-align: center;
@@ -410,6 +471,7 @@ footer {
     #about .aboutUs {
         display: flex;
         justify-content: center;
+        gap: 2rem;
     }
     
     #about .aboutUs .colLeft {
