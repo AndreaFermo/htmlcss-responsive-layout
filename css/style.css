@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
-/*DEBUG*/
+/*DEBUG AND OTHERS*/
 
-
-.debug #functions .container .cards .card {
-    height: 300px;
+.bluntBorder {
+    border-radius: 1rem;
 }
+
+
 
 .debug #plans .column {
     height: 300px;
     margin-bottom: 2rem;
 }
 /*CSS*/
+
+html {
+    font-family: sans-serif;
+}
 
 /*HEADER*/
 
@@ -79,16 +84,70 @@
 
 /*PLANNING*/
 
-#functions {
+#planning {
     padding: 6rem 0 2rem;
 }
 
 
-#functions .card {
+#planning .card {
     background-color: #b5ddff;
     margin: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
 
 }
+
+#planning .card:first-child {
+
+    padding: 1rem 2rem 0rem;
+    text-align: left;
+
+}
+
+#planning .card .intro {
+   
+    padding: 0 0 3rem;
+   
+}
+
+#planning .card img {
+    display: block;
+    padding: 1rem 0 0;
+    width: 90%;
+}
+
+#planning .card h3 {
+    color: #0084fd;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    
+}
+
+#planning .card p {
+    color: #556879;
+    padding: 1rem 0 3rem;
+    line-height: 2rem;
+    font-weight: bold;
+    
+}
+
+#planning .card a {
+    color: white;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0084fd;
+    letter-spacing: 0.08rem;
+    border-radius: 2rem;
+    
+}
+
+#planning .card .blueIcon {
+    color: #0084fd;
+    font-size: 5rem;
+    padding: 2rem 0 0rem;
+}
+
 
 #plans {
     background-color:  #9792e4;
@@ -102,6 +161,8 @@
 #plans .col2 {
     background-color: white;
 }
+
+/*TESTIMONIAL*/
 
 #testimonials {
     text-align: center;
@@ -159,28 +220,32 @@ footer {
     
     }
 
-    #functions .cards {
+    #planning .cards {
         margin: 0.5rem;
    
 
     }
 
 
-    #functions .card {
+    #planning .card {
         width: calc(100% / 3 - 1rem);
         margin: 0.5rem;
 
     }
 
-    #functions .card:first-child {
+    #planning .card:first-child {
         width: calc(100% / 3 * 2 - 1rem);
 
     }
 
-    #functions .cards {
+    #planning .cards {
         display: flex;
         flex-wrap: wrap;
 
+    }
+
+    #planning .card img {
+        width: 70%;
     }
 
     #testimonials .card {
@@ -236,14 +301,19 @@ footer {
         display: none;
     }
 
-    #functions .card:first-child {
+    #planning .card:first-child {
         display: flex;
 
     }
 
-    #functions .intro , .fnctImg {
+    #planning .intro {
         width: 50%;
+      
+    }
 
+    #planning .card img {
+        width: 50%;
+        align-self: flex-end;
     }
 
     #plans .columns {
