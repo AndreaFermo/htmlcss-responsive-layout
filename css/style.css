@@ -391,13 +391,63 @@ html {
     text-align: center;
     padding: 2rem 0rem;
     background-color: #9792e4;
+    color: white;
 }
 
+#getStarted .get {
+    color: #ceccf2;
+    padding-bottom: 1rem;
+}
+
+#getStarted h2 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#getStarted .free {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fdc15f;
+}
+
+#getStarted p {
+    line-height: 2rem;
+    padding: 2rem 0rem;
+}
+
+#getStarted .btn {
+    color: #9792e4;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    letter-spacing: 0.08rem;
+    border-radius: 2rem;
+}
+
+.cprt {
+    padding: 4rem 0 2rem;
+}
+
+.cprt a {
+    color: white;
+}
+
+
+/*FOOTER*/
 footer {
     color: white;
     background-color: #313131;
     text-align: center;
     padding: 2rem 0rem;
+}
+
+footer a {
+    color: #9792e4;
+}
+
+footer p {
+    padding-bottom: 4rem;
 }
 
 
