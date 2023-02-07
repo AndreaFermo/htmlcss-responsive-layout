@@ -13,7 +13,7 @@
 
 
 .debug #plans .column {
-    height: 300px;
+   
     margin-bottom: 2rem;
 }
 /*CSS*/
@@ -155,11 +155,57 @@ html {
 
 #plans .columns {
     margin: 0 1rem;
-    padding: 2rem 0;
+    padding: 4rem 0;
+}
+
+#plans .column img {
+    width: 100%;
+}
+
+#plans .column {
+    color: white;
+}
+
+#plans .col2 {
+    text-align: center;
+    color: black;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+#plans .column h2 {
+    padding: 3rem 0;
+    font-size: 2.5rem;
+}
+
+#plans .column p {
+    line-height: 1.5rem;
+}
+
+#plans .col2 h3 {
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+
+#plans .col2 p {
+    font-style: italic;
+    padding-bottom: 3rem;
 }
 
 #plans .col2 {
     background-color: white;
+}
+
+#plans .col2 img {
+    width: 60%;
+}
+
+#plans .col2 a {
+    color: black;
+    background-color: #9792e4;
+    padding: 1rem 1.4rem;
+    font-size: 2rem;
+    border-radius: 50%;
 }
 
 /*TESTIMONIAL*/
@@ -319,15 +365,18 @@ footer {
     #plans .columns {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
     }
 
     #plans .column {
         width: 40%;
+        margin-left: 5%;
+    }
+
+    #plans .col2 {
+        align-self: flex-end;
     }
     
-    #benefits .card {
-        
+    #benefits .card {  
         width: calc(100% / 3 - 1rem);
     }
 }
